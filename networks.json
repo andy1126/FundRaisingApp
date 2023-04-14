@@ -1,0 +1,8 @@
+{
+  "sepolia": {
+    "FundraisingApp": {
+      "address": "0x0E082AAdb513c97d57dE329C25141fc86f67ADb6",
+      "startBlock": 3288596
+    }
+  }
+}

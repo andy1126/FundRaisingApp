@@ -1,0 +1,9 @@
+type CampaignBidLog @entity(immutable: true) {
+  id: Bytes!
+  campaignId: BigInt! # uint256
+  sender: Bytes! # address
+  amount: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
